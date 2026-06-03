@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="ClaseComponentes.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClaseComponentes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:components="using:ClaseComponentes.Components"
+    xmlns:models="using:ClaseComponentes.Models"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer Padding="20">
+        <StackPanel>            
+            <!--<components:ProductListControl Items="{x:Bind Productos}"/>-->
+            <!--<Button Content="Añadir" Click="Button_Click"/>-->
+            
+            <!-- PARTE 1: AQUI EMPIEZA LA CLASE QUE NOS FALTABA
+            
+            Aqui acabamos de crear un boton con funcionalidad en el mainpage.xaml.cs. Esto puede ser un problema, porque:
+            - Se duplica potencialmente el código (si tengo varios botones que hacen lo mismo)
+            - Tengo lógica en la capa de vista
+            
+            Vamos a implementar ICommands. Un comando es una interfaz que la vista puede invocar sin saber lo que hay detrás. 
+            Así, separamos las responsabilidades, testabilidad y mejoramos la reuitlización. 
+            Hoy vamos a ver un RelayCommand, una versión simple de comando, que ejecuta una acción.
+            
+            La UI no llama metodos, sino que invoca comandos. El Viewmodel gestiona los datos y la UI solo los refresca 
+            (automaticamente, porque estamos usando ObservableCollection).
+            
+            Creo una carpeta Commands, y un archivo Commands.cs
+            -->
+
+            
+            
+            
+            
+            
+            <components:ProductListControl Items="{x:Bind productViewModel.Productos}"/>
+            <Button Content="Agregar producto" Command="{Binding AddProductCommand}" Margin="0,12"/>
+            
+            <!-- PARTE 2: ACABAMOS DE CREAR EL VIEWMODEL Y ES UN ATRIBUTO DE NUESTRA MAINPAGE
+            Que ha cambiado: Lo primero, es que ahora el binding de la lista se hace a productViewModel.Productos. 
+            Como hemos visto en el MainPage.xaml.cs, esto es porque hemos definido el datacontext de esta clase en el VM; 
+            asi, puede "leer" y bindear los atributos de esa clase. Como hemos movido la lista de Productos alli, el binding cambia a esta nueva lista.
+            
+            Por otra parte, el boton tambien es distinto. Ya no tiene la propiedad Click, que utilizaba el callback que hemos borrado.
+            En su lugar, le pasamos un Command (como el que hemos creado antes), y hay que hacer binding. 
+            Vamos a bindear a un Comando que creemos llamado AddProductCommand (lo crearemos ahora). Lo podeis llamar como querais, es un atributo como 
+            cualquier otro.
+            La idea de todo esto es que la View no tenga ni idea de nada de implementacion, ni de logica de la aplicacion. Todo eso, al VM.
+            Vamos ahora al VM, de nuevo, a crear este comando.
+            -->
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

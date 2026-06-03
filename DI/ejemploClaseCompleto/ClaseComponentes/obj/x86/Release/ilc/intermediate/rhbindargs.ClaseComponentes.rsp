@@ -1,0 +1,16 @@
+﻿/osver:6.2
+/appcontainer
+"/runtime:mrt100_app"
+/eh:clr
+/pdb
+"/nativeLink:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\x86\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\intermediate\MDIL\ClaseComponentes.mdilexe"
+"/i:C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\intermediate\Native\ClaseComponentes.exe"
+"/pdbAltPath:C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\bin\x86\Release\ilc"
+"/res:C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

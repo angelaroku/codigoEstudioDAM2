@@ -1,0 +1,1 @@
+C:\Users\USER\source\repos\ejemploClaseCompleto\ClaseComponentes\ClaseComponentes.csproj;x64

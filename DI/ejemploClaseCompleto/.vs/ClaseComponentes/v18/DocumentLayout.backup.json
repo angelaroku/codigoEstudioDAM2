@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\clasecomponentes\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|solutionrelative:clasecomponentes\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|c:\\users\\user\\source\\repos\\ejemploclasecompleto\\clasecomponentes\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|solutionrelative:clasecomponentes\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\clasecomponentes\\models\\jsondataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|solutionrelative:clasecomponentes\\models\\jsondataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\clasecomponentes\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2B81B0-1397-4F14-9CF6-DFEDDF6F083D}|ClaseComponentes\\ClaseComponentes.csproj|solutionrelative:clasecomponentes\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 86,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ClaseComponentes\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "ClaseComponentes\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:55:14.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ClaseComponentes\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "ClaseComponentes\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:51:44.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonDataService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\Models\\JsonDataService.cs",
+              "RelativeDocumentMoniker": "ClaseComponentes\\Models\\JsonDataService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\Models\\JsonDataService.cs",
+              "RelativeToolTip": "ClaseComponentes\\Models\\JsonDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:21:34.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "ClaseComponentes\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ejemploClaseCompleto\\ClaseComponentes\\Models\\Producto.cs",
+              "RelativeToolTip": "ClaseComponentes\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T15:21:32.579Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

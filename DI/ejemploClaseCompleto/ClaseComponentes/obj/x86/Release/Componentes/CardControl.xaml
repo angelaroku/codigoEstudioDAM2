@@ -1,0 +1,41 @@
+﻿
+<UserControl
+    x:Class="ClaseComponentes.Components.CustomCardControl" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:ClaseComponentes.Components"
+    Width="350" Height="120">
+	
+	
+	<Border CornerRadius="8" BorderBrush="LightGray" BorderThickness="1" Padding="10" Background="White">
+        
+		<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="80"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+            <local:TagControl x:ConnectionId='2' x:Name="mietiqueta" IconoEtiqueta="Library" TextoEtiqueta="¡Oferta!"  ColorFondoEtiqueta="Red" Height="30" Grid.Row="0" Grid.Column="1"  Margin="98,-1,0,69" Grid.RowSpan="2"/>
+            <Rectangle Fill="LightGray" Grid.Column="0" Grid.Row="1" Width="70" Height="70" RadiusX="6" RadiusY="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <StackPanel Grid.Column="1"  Grid.Row="1" Margin="10,0,0,0">
+				<TextBlock x:ConnectionId='3' x:Name="nombreTarjeta" Text="Producto" FontSize="16" FontWeight="SemiBold" Foreground="Black"/>
+				<TextBlock x:ConnectionId='4' x:Name="descripcionTarjeta" Text="Descripción breve" FontSize="12" Foreground="Gray"/>
+				
+
+				<StackPanel x:ConnectionId='5' x:Name="InfoPanel" Orientation="Horizontal" Margin="0,8,0,0">
+					<TextBlock x:ConnectionId='6' x:Name="precioTarjeta" Text="$9.99" FontSize="12" FontWeight="Bold" Foreground="Black" Width="70"/>
+					<Button Content="Ver" Margin="12,0,0,0" VerticalAlignment="Center" Foreground="Black" Width="90" />
+				</StackPanel>
+			</StackPanel>
+		</Grid>
+	</Border>
+</UserControl>
+
+

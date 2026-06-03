@@ -1,0 +1,11 @@
+﻿"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in\ClaseComponentes.exe"
+"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in\Microsoft.Bcl.AsyncInterfaces.dll"
+"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in\System.IO.Pipelines.dll"
+"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in\System.Text.Encodings.Web.dll"
+"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in\System.Text.Json.dll"
+/Lib:"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\Anita\Desktop\ClaseComponentesNueva\ClaseComponentes\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{\"TelemetryLevel\":null,\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"CollectorApiKey\":\"f3e86b4023cc43f0be495508d51f588a-f70d0e59-0fb0-4473-9f19-b4024cc340be-7296\",\"AppId\":1001,\"UserId\":\"0e9e3d12-d977-4219-8f34-698eb1520a6f\",\"Id\":\"24c175d7-2156-419f-88d4-ad74b0bbad3c\",\"ProcessStartTime\":639016482361999329,\"SkuName\":\"VS_Community\",\"VSExeVersion\":\"17.14.36616.10\",\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[]}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\LibraryXML"
+/RunOnlyPreDR

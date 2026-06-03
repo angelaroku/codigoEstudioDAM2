@@ -1,0 +1,31 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="ClaseComponentes.Components.ProductListControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:components="using:ClaseComponentes.Components" 
+    xmlns:models="using:ClaseComponentes.Models">
+
+
+    <!--Cambiamos el selectionMode, para que podamos seleccionar un elemento. Si no, no podremos borrarlo o cambiarlo. Lo ponemos a "Single"
+    Exponemos en el .cs un atributo ProductoSeleccionado, que es el que vamos a bindear aqu�.
+    Ahora estamos bindeando para exponer valores, aunque no se cambien en esta lista; no queremos que el codigo cambie que valor ha seleccionado el usuario
+    pero si que tenga acceso a el. Tenemos que exponerlo para eso. Para eso, ademas, tenemos que poner el modo de bindeo a TwoWay.  -->
+    <ListView x:ConnectionId='2' x:Name="ProductListView"                             
+                        SelectionMode="Single"
+                                                                                 
+                        IsItemClickEnabled="False"
+                        MinHeight="200">
+        <ListView.ItemTemplate>
+            <DataTemplate                             >
+                <components:CustomCardControl x:ConnectionId='4' 
+                                                            
+                                                                      
+                                                            
+                            Margin="0,0,0,8"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+</UserControl>
+
